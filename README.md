@@ -79,7 +79,7 @@ The samples contain classic vulnerability patterns written for this benchmark. C
 
 ## Citation
 
-Dataset: S. Chokshi, "CommentInject: A benchmark of adversarial code-comment injection against LLM vulnerability detectors," v1.0.0, Zenodo, 2026. doi:10.5281/zenodo.23088528. See also `CITATION.cff`.
+Dataset: S. Chokshi, "CommentInject: A benchmark of adversarial code-comment injection against LLM vulnerability detectors," v1.0.0, Zenodo, 2026. doi:10.5281/zenodo.23088528. All versions: doi:10.5281/zenodo.23088527. See also `CITATION.cff`.
 
 ## License
 
