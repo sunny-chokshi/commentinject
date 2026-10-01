@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use CommentInject, please cite it as below."
+title: "CommentInject: A benchmark of adversarial code-comment injection against LLM vulnerability detectors"
+type: dataset
+version: 1.0.0
+date-released: 2026-10-01
+authors:
+  - family-names: Chokshi
+    given-names: Sunny
+    orcid: "https://orcid.org/0009-0003-4738-7759"
+    affiliation: "University of the Cumberlands"
+license: "MIT AND CC-BY-4.0"
+keywords:
+  - adversarial comment injection
+  - prompt injection
+  - vulnerability detection
+  - large language models
+  - code security
+  - benchmark
+abstract: >
+  30 vulnerable Python functions across 14 CWE categories, 12 adversarial
+  comment strategies in four families, and 3,360 recorded trials from four
+  studies (attack ranking, comment-stripping defense, cross-model comparison,
+  transferability) on four local code models.

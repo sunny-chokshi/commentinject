@@ -1,0 +1,4 @@
+condition,detected,n,detect_pct,ci_lo,ci_hi
+clean,54,60,90.0,79.9,95.3
+adversarial,361,480,75.2,71.2,78.9
+defended,432,480,90.0,87.0,92.4

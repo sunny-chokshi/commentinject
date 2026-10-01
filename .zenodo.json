@@ -1,0 +1,9 @@
+{
+  "title": "CommentInject: A benchmark of adversarial code-comment injection against LLM vulnerability detectors",
+  "upload_type": "dataset",
+  "description": "30 vulnerable Python functions across 14 CWE categories, 12 adversarial comment strategies in four families (verification premise, context manipulation, credibility vocabulary, pressure and distraction), and 3,360 recorded trials from four studies run locally through Ollama at temperature 0: an attack ranking (780 trials), a comment-stripping defense (1,020), a cross-model comparison (600) and a transferability study (960), on qwen2.5-coder 7B, deepseek-coder 6.7B, codellama 7B and codegemma 7B. Includes the original harnesses and an analysis script that reproduces every headline number with Wilson 95% confidence intervals.",
+  "creators": [{"name": "Chokshi, Sunny", "affiliation": "University of the Cumberlands", "orcid": "0009-0003-4738-7759"}],
+  "keywords": ["adversarial comment injection", "prompt injection", "vulnerability detection", "large language models", "code security", "benchmark", "CWE"],
+  "license": "cc-by-4.0",
+  "access_right": "open"
+}

@@ -1,0 +1,5 @@
+model,clean_pct,adversarial_pct,adv_ci_lo,adv_ci_hi,n_adversarial
+codegemma:7b,76.7,17.5,11.7,25.3,120
+codellama:7b,100.0,62.5,53.6,70.6,120
+deepseek-coder:6.7b,93.3,62.5,53.6,70.6,120
+qwen2.5-coder:7b,96.7,93.3,87.4,96.6,120

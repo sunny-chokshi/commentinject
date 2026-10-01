@@ -1,0 +1,17 @@
+source,target,target_fooled,source_fooled,transfer_pct,ci_lo,ci_hi
+codegemma:7b,codegemma:7b,164,164,100.0,97.7,100
+codegemma:7b,codellama:7b,60,164,36.6,29.6,44.2
+codegemma:7b,deepseek-coder:6.7b,92,164,56.1,48.4,63.5
+codegemma:7b,qwen2.5-coder:7b,15,164,9.1,5.6,14.5
+codellama:7b,codegemma:7b,60,82,73.2,62.7,81.6
+codellama:7b,codellama:7b,82,82,100.0,95.5,100
+codellama:7b,deepseek-coder:6.7b,47,82,57.3,46.5,67.5
+codellama:7b,qwen2.5-coder:7b,8,82,9.8,5.0,18.1
+deepseek-coder:6.7b,codegemma:7b,92,104,88.5,80.9,93.3
+deepseek-coder:6.7b,codellama:7b,47,104,45.2,36.0,54.8
+deepseek-coder:6.7b,deepseek-coder:6.7b,104,104,100.0,96.4,100.0
+deepseek-coder:6.7b,qwen2.5-coder:7b,14,104,13.5,8.2,21.3
+qwen2.5-coder:7b,codegemma:7b,15,15,100.0,79.6,100
+qwen2.5-coder:7b,codellama:7b,8,15,53.3,30.1,75.2
+qwen2.5-coder:7b,deepseek-coder:6.7b,14,15,93.3,70.2,98.8
+qwen2.5-coder:7b,qwen2.5-coder:7b,15,15,100.0,79.6,100
