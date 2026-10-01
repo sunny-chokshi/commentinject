@@ -3,6 +3,7 @@ message: "If you use CommentInject, please cite it as below."
 title: "CommentInject: A benchmark of adversarial code-comment injection against LLM vulnerability detectors"
 type: dataset
 version: 1.0.0
+doi: 10.5281/zenodo.23088528
 date-released: 2026-10-01
 authors:
   - family-names: Chokshi

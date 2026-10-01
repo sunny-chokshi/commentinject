@@ -67,4 +67,4 @@ All samples are synthetic; credentials in them are fake. No exploit code, nothin
 
 ## Citation
 
-Dataset DOI via Zenodo to be added. Author: Sunny Chokshi, University of the Cumberlands. ORCID 0009-0003-4738-7759.
+Dataset: CommentInject v1.0.0, Zenodo, 2026. doi:10.5281/zenodo.23088528. Author: Sunny Chokshi, University of the Cumberlands. ORCID 0009-0003-4738-7759.

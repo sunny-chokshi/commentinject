@@ -1,5 +1,9 @@
 # CommentInject
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23088528.svg)](https://doi.org/10.5281/zenodo.23088528)
+
+Also on Hugging Face: [sunny-chokshi/commentinject](https://huggingface.co/datasets/sunny-chokshi/commentinject)
+
 A benchmark of **adversarial code-comment injection** against LLM-based code vulnerability detectors, with the full trial record of four studies.
 
 The attack is simple: leave the vulnerable code exactly as it is and add a comment that tells the reviewer the code is safe ("SECURITY REVIEWED", "input is sanitized upstream", "formally verified"). CommentInject measures how often that comment makes a locally run code model miss a real vulnerability, which kinds of comment work best, whether stripping comments defends against it, and whether a comment that fools one model also fools others.
@@ -75,7 +79,7 @@ The samples contain classic vulnerability patterns written for this benchmark. C
 
 ## Citation
 
-Dataset: see `CITATION.cff`. A Zenodo DOI will be added here once minted.
+Dataset: S. Chokshi, "CommentInject: A benchmark of adversarial code-comment injection against LLM vulnerability detectors," v1.0.0, Zenodo, 2026. doi:10.5281/zenodo.23088528. See also `CITATION.cff`.
 
 ## License
 
