@@ -1,4 +1,4 @@
-# CommentInject
+# CommentInject: Testing Whether Code Comments Mislead AI Security Reviewers
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23088528.svg)](https://doi.org/10.5281/zenodo.23088528)
 
@@ -7,6 +7,8 @@ Also on Hugging Face: [sunny-chokshi/commentinject](https://huggingface.co/datas
 A benchmark of **adversarial code-comment injection** against LLM-based code vulnerability detectors, with the full trial record of four studies.
 
 The attack is simple: leave the vulnerable code exactly as it is and add a comment that tells the reviewer the code is safe ("SECURITY REVIEWED", "input is sanitized upstream", "formally verified"). CommentInject measures how often that comment makes a locally run code model miss a real vulnerability, which kinds of comment work best, whether stripping comments defends against it, and whether a comment that fools one model also fools others.
+
+**Quickstart:** [notebooks/commentinject-quickstart.ipynb](notebooks/commentinject-quickstart.ipynb) loads the data from Hugging Face, shows one recorded verdict change, and redraws the Study 2 chart. No model needed.
 
 ## What is in the benchmark
 
